@@ -1,14 +1,10 @@
 node {
-	z-index: 1;
 	text-style: bold;
-	shape: freeplane;
+	shape: circle;
 	size: 6;
 }
 
 edge {
-	arrow-shape: arrow;
-	arrow-size: 15px, 15px;
-	z-index: 0;
-	shape: blob;
-	size: 1;
+	arrow-shape: none;
+	arrow-size: 0, 0;
 }
