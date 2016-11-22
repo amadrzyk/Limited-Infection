@@ -1,10 +1,10 @@
-import java.util.HashMap;
+import java.util.*;
+
+import org.graphstream.graph.Node;
 
 /**
  * This class represents a user profile on Khan Academy's network.
- * Users can have different features activated at different times.
- * 
- * FeatureId here is only used to check whether a specific user has a specific feature active or not.
+ * Users have a version attribute on their profile.
  * 
  * We could always add: <br>
  * <ul>
@@ -18,27 +18,23 @@ import java.util.HashMap;
  */
 public class User {
 	// Map of features, and whether or not they are currently active.
-	private HashMap<Integer, Boolean> features;
+	private int version;
+	private Node node;
 	
-	public User(){
-		features = new HashMap<Integer, Boolean>();
+	public User(int v, Node n){
+		this.version = v;
+		this.node = n;
 	}
 	
-	public boolean isActive(int featureId){
-		return this.features.get(featureId);
+	public int getVersion(){
+		return this.version;
 	}
 	
-	public boolean activate(int featureId){
-		this.features.put(featureId, true);
-		
-		// Will return true if activation worked
-		return this.features.get(featureId);
+	public void setVersion(int v){
+		this.version = v;
 	}
 	
-	public boolean deactivate(int featureId){
-		this.features.put(featureId, false);
-		
-		// Will return false if activation worked
-		return this.features.get(featureId);
+	public Node getNode(){
+		return this.node;
 	}
 }

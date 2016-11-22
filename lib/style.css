@@ -1,8 +1,14 @@
-edge {
-	shape: blob;
-	size: 1;
+node {
+	z-index: 1;
+	text-style: bold;
+	shape: freeplane;
+	size: 6;
 }
 
-node {
-	size: 8;
+edge {
+	arrow-shape: arrow;
+	arrow-size: 15px, 15px;
+	z-index: 0;
+	shape: blob;
+	size: 1;
 }
