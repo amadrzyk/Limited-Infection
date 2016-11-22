@@ -24,4 +24,4 @@ Properties < Java Build Path < Libraries
 ```
 and clicking "add Jar". This will add the required graph libraries as classpath variables for the project to run.
 
-Thank you for reviewing my project, and if you have any questions or issues with running the project, I would be happy to help!
+Thank you for reviewing my project, and if you have any questions or issues with running the project, please let me know and I would be happy to help!
