@@ -18,7 +18,7 @@ This program displays an interactive graph of Khan Academy users, and models the
     * When you infect one node, and don't have a limit for number of users infected, then all users linked to that node will become infected.
     
 #### **Modified Breadth-First Search algorithm**
-I noticed that it difficult to infect all the students of a teacher at once. That is why I modified the commonly-known BFS algorithm so that when visiting a node, the algorithm first temporarily saves all immediate neighbors of a given node, then queues all "2nd generation" neighbors (2 edges away), and then infects the immediate neighbors. This causes a great clustering effect that infects an entire classroom, but also queues users that are outside of that classroom.
+I noticed that it was difficult to infect every student of a specific teacher at once. That is why I modified the commonly-known BFS algorithm so that when visiting a node, the algorithm first temporarily saves all immediate neighbors of a given node, then queues all "2nd generation" neighbors (2 edges away), and then infects the immediate neighbors. This causes a great clustering effect that infects an entire classroom, but also queues users that are outside of that classroom to be later infected.
 
 ## Getting Started
 If you have Java installed, double-clicking on the .jar file will run the program. Otherwise, all files required to run the project on Eclipse are also present. 
