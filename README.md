@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This program models a graph of Khan Academy users, and models their relationships with eachother. 
+This program displays an interactive graph of Khan Academy users, and models their relationships with eachother. 
 * Users are represented by **nodes**, which can hold many attributes (such as the current website version they see, who they're connected to, their degree, and more.
     * In this case, being "infected" refers to whether the user sees the particular updated version compared with everyone else. 
 * Edges between nodes are always directed from the parent/teacher node to the student node. That is, the program uses the heuristic where a teacher generally has more students than a student has teachers. The same goes for parents.
