@@ -5,7 +5,7 @@ This program effectively models a graph of Khan Academy users, and their relatio
 * Edges between nodes are always directed from the parent/teacher node to the student node. That is, the program uses the heuristic where a teacher generally has more students than a student has teachers. The same goes for parents.
 * Both versions of the program (total_infection and limited_infection) initiate a Depth-First Search 
 
-One thing I wanted to accomplish was modelling a real-world visualization. Types of users we have are: 
+**One thing I wanted to accomplish was modelling a real-world visualization. Types of users we have are:**
 * Single users with no connections (degree = 0) 
     * These can be infected immediately
 * Clusters of users with some connections (degree = 1-20?)
