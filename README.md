@@ -1,3 +1,5 @@
+# Limited and Total Infection
+
 ## Introduction
 
 This program effectively models a graph of Khan Academy users, and their relationships with eachother. 
@@ -6,13 +8,12 @@ This program effectively models a graph of Khan Academy users, and their relatio
 * Both versions of the program (total_infection and limited_infection) initiate a Depth-First Search 
 
 **One thing I wanted to accomplish was modelling a real-world visualization. Types of users we have are:**
-* Single users with no connections (degree = 0) 
+1. Single users with no connections (degree = 0) 
     * These can be infected immediately
-* Clusters of users with some connections (degree = 1-20?)
+2. Clusters of users with some connections (degree = 1-20?)
     * Might want to try visualizing these clusters
     * They can be completely separate (in which case you can infect the whole group)
-* If there is only one linkage between someone in one group and another, 
- we can risk that linkage with the discrepancy in two sites
+If there is only one linkage between someone in one group and another, we can risk that linkage with a discrepancy in two versions of the site.
 
 ## Getting Started
 If you are using Eclipse, you can open the project in there, and run it (after adding libraries as class variables).
