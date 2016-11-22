@@ -17,7 +17,7 @@ This program displays an interactive graph of Khan Academy users, and models the
     * When you infect one node, and don't have a limit for number of users infected, then all users linked to that node will become infected.
 
 ## Getting Started
-If you have Java installed, double-clicking on the .jar file will run the graphics. Otherwise, all files required to run the project on Eclipse are also present. 
+If you have Java installed, double-clicking on the .jar file should run the program. Otherwise, all files required to run the project on Eclipse are also present. 
 It is recommended to add all three libraries in the `lib` folder to your referenced libraries. One can do so by accessing:
 ```
 Properties < Java Build Path < Libraries
