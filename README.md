@@ -19,6 +19,7 @@ This program models a graph of 1000 Khan Academy users, and their relationships 
 ## Getting Started
 If you have Java installed, double-clicking on the .jar file will run the graphics. Otherwise, all files required to run the project on Eclipse are also present. 
 It is recommended to add all three libraries in the `lib` folder to your referenced libraries. One can do so by accessing:
-```Properties < Java Build Path < Libraries
+```
+Properties < Java Build Path < Libraries
 ```
 and clicking "add Jar". This will add the required graph libraries as classpath variables for the project to run.
