@@ -29,7 +29,7 @@ Properties < Java Build Path < Libraries
 and clicking "add Jar". This will add the required graph libraries as classpath variables for the project to run.
 
 ## Future Extensions
-A potential future implementation would be to use the ```A*``` algorithm (or a better heuristic) to model an exact infection. The program could then search through every "class" until it finds one that satisfies the conditions required, and infects the entire connected component.
+A potential implementation would be to use the ```A*``` algorithm (or a better heuristic) to model an exact infection. The program could then search through every "class" until it finds one that satisfies the conditions required, and infects the entire connected component.
 
 ## Final Words
 Thank you for reviewing my project, and if you have any questions or issues with running the project, please let me know and I would be happy to help!
