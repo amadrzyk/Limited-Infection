@@ -1,5 +1,11 @@
 # Limited and Total Infection
 
+<p align="center">
+  <br>
+  <img loop=infinite src="https://github.com/amadrzyk/Achi-Dynamic-Programming/blob/master/PlayAchiLoop.gif" alt="Achi Gameplay"/>
+  <br>
+</p>
+
 ## Introduction
 
 This program displays an interactive graph of a network's users, and models their relationships with each other. The goal of this project was to model the "spread" of a live update to a company's userbase.
