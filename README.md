@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img loop=infinite src="https://github.com/amadrzyk/Achi-Dynamic-Programming/blob/master/PlayAchiLoop.gif" alt="Achi Gameplay"/>
+  <img loop=infinite src="https://github.com/amadrzyk/Personal-Website/raw/master/public_html/assets/images/portfolio/limitedInfectionLoop.gif" alt="Achi Gameplay"/>
   <br>
 </p>
 
